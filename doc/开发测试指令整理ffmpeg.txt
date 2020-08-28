@@ -1,0 +1,49 @@
+ffmpeg -i tan.mp4 -codec copy -bsf: h264_mp4toannexb -ss 0:05 -t 3600 -f h264 tan.264
+
+ffmpeg  -y -i tan.mp4 -acodec pcm_s16le -f s16le -ac 1 -ar 44100 -ss 0:05 -t 3600 tan.pcm
+
+
+ffmpeg  -i tan.mp4 -vcodec copy -acodec copy -ss 00:30:10 -to 00:30:20 tan_10.mp4 -y
+
+
+ffmpeg -f alaw -ar 44100 -i tan_10.pcm -r 24 -i tan_10.264 -vcodec copy  ffmpeg_out_10.mp4
+
+
+gcc minimp4.h  minimp4_test_time.c  -o minimp4_av -I //home/f/project/mp4/
+
+gcc -g minimp4.h  minimp4_test_time.c   -I //home/f/project/mp4/fdk-aac-2.0.1/include/ -L /home/f/project/mp4/fdk-aac-2.0.1/lib/ -lfdk-aac -o minimp4_av_g
+
+
+gcc -g mp4muxer.c  mp4muxer.h  mp4muxer_test.c   -I //home/f/project/mp4/fdk-aac-2.0.1/include/ -L /home/f/project/mp4/fdk-aac-2.0.1/lib/ -lfdk-aac -o mp4muxer_time_av
+
+
+cp minimp4_av_g /home/f/project/mp4/mp4_bak/ffmpeg-4.2.1-i686-static
+
+export LD_LIBRARY_PATH=/home/f/project/mp4/fdk-aac-2.0.1/lib/:$LD_LIBRARY_PATH
+
+
+/home/f/project/mp4/mp4_bak/ffmpeg-4.2.1-i686-static
+
+/home/f/project/mp4/minimp4
+
+
+./ffmpeg -i tan_10.mp4 -codec copy -bsf: h264_mp4toannexb  -f h264 tan_10.264
+./ffmpeg  -y -i tan_10.mp4 -acodec pcm_s16le -f s16le -ac 1 -ar 44100  tan_10.pcm
+
+
+
+/home/f/project/valgrind-3.15.0/bin/valgrind --track-fds=yes --leak-check=full --undef-value-errors=yes  ./minimp4_av_g  tan_10.264  test_out_10.mp4
+
+/home/f/project/valgrind-3.15.0/bin/valgrind --tool=memcheck --leak-check=full --track-origins=yes --show-reachable=yes ./minimp4_av_g  tan_10.264  test_out_10.mp4
+
+
+/home/f/project/valgrind-3.15.0/bin/valgrind --tool=memcheck --leak-check=full --track-origins=yes --show-reachable=yes ./mp4muxer_time_av  tan_10.264  mp4muxer_out_10.mp4
+
+
+arm-hisiv500-linux-gcc -g mp4muxer.c  mp4muxer.h  mp4muxer_test.c   -o mp4muxer_time_av_hisiv500
+
+
+
+export LD_LIBRARY_PATH=/usr/local/glibc-2.19/lib:$LD_LIBRARY_PATH
+
+福建省

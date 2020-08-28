@@ -1,0 +1,246 @@
+libAACdec/src/aacdec_hcrs.lo: libAACdec/src/aacdec_hcrs.cpp \
+ libAACdec/src/aacdec_hcrs.h libFDK/include/FDK_bitstream.h \
+ libFDK/include/FDK_bitbuffer.h libFDK/include/FDK_archdef.h \
+ libSYS/include/machine_type.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/stddef.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/assert.h \
+ D:/msys64/mingw64/include/c++/9.2.0/stdlib.h \
+ D:/msys64/mingw64/include/c++/9.2.0/cstdlib \
+ D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed/limits.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed/syslimits.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/limits.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ D:/msys64/mingw64/include/c++/9.2.0/bits/std_abs.h \
+ libSYS/include/genericStds.h libSYS/include/machine_type.h \
+ libAACdec/src/aacdec_hcr_types.h libAACdec/src/overlapadd.h \
+ libFDK/include/common_fix.h libFDK/include/fixmul.h \
+ libFDK/include/x86/fixmul_x86.h libFDK/include/abs.h \
+ libFDK/include/x86/abs_x86.h libFDK/include/clz.h \
+ libFDK/include/x86/clz_x86.h libFDK/include/fixmadd.h \
+ libFDK/include/fixminmax.h libFDK/include/cplx_mul.h \
+ libFDK/include/common_fix.h libFDK/include/fixpoint_math.h \
+ libFDK/include/scale.h libFDK/include/x86/fixpoint_math_x86.h \
+ D:/msys64/mingw64/include/c++/9.2.0/math.h \
+ D:/msys64/mingw64/include/c++/9.2.0/cmath \
+ D:/msys64/mingw64/include/c++/9.2.0/bits/cpp_type_traits.h \
+ D:/msys64/mingw64/include/c++/9.2.0/ext/type_traits.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/math.h \
+ libAACdec/src/aacdec_hcr.h libAACdec/src/channelinfo.h \
+ libAACdec/src/aac_rom.h libSYS/include/FDK_audio.h \
+ libSYS/include/genericStds.h libSYS/include/syslib_channelMapDescr.h \
+ libAACdec/include/aacdecoder_lib.h libFDK/include/mdct.h \
+ libAACdec/src/stereo.h libAACdec/src/pulsedata.h \
+ libAACdec/src/aacdec_tns.h libAACdec/src/aacdec_pns.h \
+ libAACdec/src/rvlc_info.h libAACdec/src/usacdec_acelp.h \
+ libAACdec/src/usacdec_const.h libAACdec/src/usacdec_rom.h \
+ libFDK/include/FDK_lpc.h libArithCoding/include/ac_arith_coder.h \
+ libAACdec/src/conceal_types.h libAACdec/src/usacdec_lpc.h \
+ libAACdec/src/aacdec_drc_types.h libAACdec/src/aacdec_hcr_bit.h \
+ libAACdec/src/aac_ram.h libAACdec/src/aacdecoder.h \
+ libAACdec/src/channel.h libFDK/include/FDK_tools_rom.h \
+ libMpegTPDec/include/tpdec_lib.h libMpegTPDec/include/tp_data.h \
+ libAACdec/src/block.h libFDK/include/FDK_qmf_domain.h \
+ libFDK/include/qmf.h libFDK/include/FDK_tools_rom.h libFDK/include/dct.h \
+ libSBRdec/include/sbrdecoder.h libAACdec/src/aacdec_drc.h \
+ libMpegTPDec/include/tp_data.h libPCMutils/include/pcmdmx_lib.h \
+ libDRCdec/include/FDK_drcDecLib.h libPCMutils/include/limiter.h \
+ libAACdec/src/FDK_delay.h
+
+libAACdec/src/aacdec_hcrs.h:
+
+libFDK/include/FDK_bitstream.h:
+
+libFDK/include/FDK_bitbuffer.h:
+
+libFDK/include/FDK_archdef.h:
+
+libSYS/include/machine_type.h:
+
+D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/stddef.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/stddef.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/corecrt.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/vadefs.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/assert.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/stdlib.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/cstdlib:
+
+D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/c++config.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/os_defines.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/stdlib.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
+
+D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed/limits.h:
+
+D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed/syslimits.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/limits.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/malloc.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/bits/std_abs.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/machine_type.h:
+
+libAACdec/src/aacdec_hcr_types.h:
+
+libAACdec/src/overlapadd.h:
+
+libFDK/include/common_fix.h:
+
+libFDK/include/fixmul.h:
+
+libFDK/include/x86/fixmul_x86.h:
+
+libFDK/include/abs.h:
+
+libFDK/include/x86/abs_x86.h:
+
+libFDK/include/clz.h:
+
+libFDK/include/x86/clz_x86.h:
+
+libFDK/include/fixmadd.h:
+
+libFDK/include/fixminmax.h:
+
+libFDK/include/cplx_mul.h:
+
+libFDK/include/common_fix.h:
+
+libFDK/include/fixpoint_math.h:
+
+libFDK/include/scale.h:
+
+libFDK/include/x86/fixpoint_math_x86.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/math.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/cmath:
+
+D:/msys64/mingw64/include/c++/9.2.0/bits/cpp_type_traits.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/ext/type_traits.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/math.h:
+
+libAACdec/src/aacdec_hcr.h:
+
+libAACdec/src/channelinfo.h:
+
+libAACdec/src/aac_rom.h:
+
+libSYS/include/FDK_audio.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/syslib_channelMapDescr.h:
+
+libAACdec/include/aacdecoder_lib.h:
+
+libFDK/include/mdct.h:
+
+libAACdec/src/stereo.h:
+
+libAACdec/src/pulsedata.h:
+
+libAACdec/src/aacdec_tns.h:
+
+libAACdec/src/aacdec_pns.h:
+
+libAACdec/src/rvlc_info.h:
+
+libAACdec/src/usacdec_acelp.h:
+
+libAACdec/src/usacdec_const.h:
+
+libAACdec/src/usacdec_rom.h:
+
+libFDK/include/FDK_lpc.h:
+
+libArithCoding/include/ac_arith_coder.h:
+
+libAACdec/src/conceal_types.h:
+
+libAACdec/src/usacdec_lpc.h:
+
+libAACdec/src/aacdec_drc_types.h:
+
+libAACdec/src/aacdec_hcr_bit.h:
+
+libAACdec/src/aac_ram.h:
+
+libAACdec/src/aacdecoder.h:
+
+libAACdec/src/channel.h:
+
+libFDK/include/FDK_tools_rom.h:
+
+libMpegTPDec/include/tpdec_lib.h:
+
+libMpegTPDec/include/tp_data.h:
+
+libAACdec/src/block.h:
+
+libFDK/include/FDK_qmf_domain.h:
+
+libFDK/include/qmf.h:
+
+libFDK/include/FDK_tools_rom.h:
+
+libFDK/include/dct.h:
+
+libSBRdec/include/sbrdecoder.h:
+
+libAACdec/src/aacdec_drc.h:
+
+libMpegTPDec/include/tp_data.h:
+
+libPCMutils/include/pcmdmx_lib.h:
+
+libDRCdec/include/FDK_drcDecLib.h:
+
+libPCMutils/include/limiter.h:
+
+libAACdec/src/FDK_delay.h:

@@ -1,0 +1,192 @@
+libSBRdec/src/sbr_dec.lo: libSBRdec/src/sbr_dec.cpp \
+ libSBRdec/src/sbr_dec.h libSBRdec/include/sbrdecoder.h \
+ libFDK/include/common_fix.h libFDK/include/FDK_archdef.h \
+ libSYS/include/machine_type.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/stddef.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/assert.h \
+ D:/msys64/mingw64/include/c++/9.2.0/stdlib.h \
+ D:/msys64/mingw64/include/c++/9.2.0/cstdlib \
+ D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed/limits.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed/syslimits.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/limits.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ D:/msys64/mingw64/include/c++/9.2.0/bits/std_abs.h \
+ libFDK/include/fixmul.h libFDK/include/x86/fixmul_x86.h \
+ libFDK/include/abs.h libFDK/include/x86/abs_x86.h libFDK/include/clz.h \
+ libFDK/include/x86/clz_x86.h libFDK/include/fixmadd.h \
+ libFDK/include/fixminmax.h libFDK/include/cplx_mul.h \
+ libFDK/include/common_fix.h libFDK/include/fixpoint_math.h \
+ libFDK/include/scale.h libSYS/include/genericStds.h \
+ libSYS/include/machine_type.h libFDK/include/x86/fixpoint_math_x86.h \
+ D:/msys64/mingw64/include/c++/9.2.0/math.h \
+ D:/msys64/mingw64/include/c++/9.2.0/cmath \
+ D:/msys64/mingw64/include/c++/9.2.0/bits/cpp_type_traits.h \
+ D:/msys64/mingw64/include/c++/9.2.0/ext/type_traits.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/math.h \
+ libFDK/include/FDK_bitstream.h libFDK/include/FDK_bitbuffer.h \
+ libSYS/include/FDK_audio.h libSYS/include/genericStds.h \
+ libSYS/include/syslib_channelMapDescr.h libFDK/include/FDK_qmf_domain.h \
+ libFDK/include/qmf.h libFDK/include/FDK_tools_rom.h libFDK/include/dct.h \
+ libSBRdec/src/lpp_tran.h libSBRdec/src/hbe.h libFDK/include/qmf.h \
+ libSBRdec/src/env_calc.h libSBRdec/src/env_extr.h libSBRdec/src/psdec.h \
+ libFDK/include/FDK_hybrid.h libFDK/include/FDK_decorrelate.h \
+ libSBRdec/src/pvc_dec.h libSBRdec/src/sbrdec_drc.h \
+ libSBRdec/src/sbr_ram.h libFDK/include/scale.h \
+ libFDK/include/FDK_matrixCalloc.h
+
+libSBRdec/src/sbr_dec.h:
+
+libSBRdec/include/sbrdecoder.h:
+
+libFDK/include/common_fix.h:
+
+libFDK/include/FDK_archdef.h:
+
+libSYS/include/machine_type.h:
+
+D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/stddef.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/stddef.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/corecrt.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/vadefs.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/assert.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/stdlib.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/cstdlib:
+
+D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/c++config.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/os_defines.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/stdlib.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
+
+D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed/limits.h:
+
+D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed/syslimits.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/limits.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/malloc.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/bits/std_abs.h:
+
+libFDK/include/fixmul.h:
+
+libFDK/include/x86/fixmul_x86.h:
+
+libFDK/include/abs.h:
+
+libFDK/include/x86/abs_x86.h:
+
+libFDK/include/clz.h:
+
+libFDK/include/x86/clz_x86.h:
+
+libFDK/include/fixmadd.h:
+
+libFDK/include/fixminmax.h:
+
+libFDK/include/cplx_mul.h:
+
+libFDK/include/common_fix.h:
+
+libFDK/include/fixpoint_math.h:
+
+libFDK/include/scale.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/machine_type.h:
+
+libFDK/include/x86/fixpoint_math_x86.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/math.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/cmath:
+
+D:/msys64/mingw64/include/c++/9.2.0/bits/cpp_type_traits.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/ext/type_traits.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/math.h:
+
+libFDK/include/FDK_bitstream.h:
+
+libFDK/include/FDK_bitbuffer.h:
+
+libSYS/include/FDK_audio.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/syslib_channelMapDescr.h:
+
+libFDK/include/FDK_qmf_domain.h:
+
+libFDK/include/qmf.h:
+
+libFDK/include/FDK_tools_rom.h:
+
+libFDK/include/dct.h:
+
+libSBRdec/src/lpp_tran.h:
+
+libSBRdec/src/hbe.h:
+
+libFDK/include/qmf.h:
+
+libSBRdec/src/env_calc.h:
+
+libSBRdec/src/env_extr.h:
+
+libSBRdec/src/psdec.h:
+
+libFDK/include/FDK_hybrid.h:
+
+libFDK/include/FDK_decorrelate.h:
+
+libSBRdec/src/pvc_dec.h:
+
+libSBRdec/src/sbrdec_drc.h:
+
+libSBRdec/src/sbr_ram.h:
+
+libFDK/include/scale.h:
+
+libFDK/include/FDK_matrixCalloc.h:

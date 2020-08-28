@@ -1,0 +1,78 @@
+libSACenc/src/sacenc_huff_tab.lo: libSACenc/src/sacenc_huff_tab.cpp \
+ libSACenc/src/sacenc_huff_tab.h libSYS/include/machine_type.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/stddef.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/assert.h \
+ D:/msys64/mingw64/include/c++/9.2.0/stdlib.h \
+ D:/msys64/mingw64/include/c++/9.2.0/cstdlib \
+ D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed/limits.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed/syslimits.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/limits.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ D:/msys64/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ D:/msys64/mingw64/include/c++/9.2.0/bits/std_abs.h
+
+libSACenc/src/sacenc_huff_tab.h:
+
+libSYS/include/machine_type.h:
+
+D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/stddef.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/stddef.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/corecrt.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/vadefs.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/assert.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/stdlib.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/cstdlib:
+
+D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/c++config.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/os_defines.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/stdlib.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
+
+D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed/limits.h:
+
+D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed/syslimits.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/limits.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+D:/msys64/mingw64/x86_64-w64-mingw32/include/malloc.h:
+
+D:/msys64/mingw64/include/c++/9.2.0/bits/std_abs.h:
